@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html><
 <html lang="en">
-
 	</head><haed>
        </head><haed>
     ( hello the world )

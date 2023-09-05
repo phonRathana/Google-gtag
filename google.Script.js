@@ -1,4 +1,5 @@
-var TO_ADDRESS = "rathanaphon29@gmail.com"; // where to send form data
+}
+ var TO_ADDRESS = "rathanaphon29@gmail.com"; // where to send form data
 
 function doPost(e) {
   

@@ -1,7 +1,4 @@
- const { app, BrowserWindow } = require('electron') 
- const path = require('path') 
-  
-  function onSignIn(googleUser) { 
+ function onSignIn(googleUser) { 
   
       function  onsignIn () { 
    var auth2 = gapi.auth2.getAuthInstance(); 

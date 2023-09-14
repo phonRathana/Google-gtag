@@ -20,15 +20,15 @@
              width: 400px;
              height: 450px;
         }
-          *Sign in button*/
-            button{
-            float:right;
-            background-color:#1A73E8;
-            outline:none;
-            border-radius:6px;
-            padding:10px 20px 10px 20px;
-            border:1px solid #1A73E8;
-            color:#FFFFFF;
+          button {
+             border: none;
+             background: #0076ff;
+             border-radius: 5px;
+             padding: 5px;
+             color: #fff;
+             font-weight: bold;
+             font-size: 20px;
+             text-transform: uppercase;
          }   
            main {  
              flex: 1 0 auto;  
@@ -102,11 +102,11 @@
         </div>  
      </footer>  
 </header>
-       <button onclick="signinclick();">signin</button>
+       <button onclick="signin();">signin</button>
 <body>
     <script type="text/javascript"/>
            
-        function  signInClick()
+        function  signIn()
           {
            document.getElementById("signIn").innerHTML.toggle("active");
            document.getElementById("ul").innerHTML.toggle("link");

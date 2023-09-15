@@ -6,9 +6,8 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); 
 
-<button id onclick="signOut();">Sign out</a></button>
-<script>
-  function signOut() {
+<button id onclick="signin();">Signin</a></button>
+  function signin() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
       console.log('User signed out.');

@@ -6,7 +6,7 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 }
-<a href="#" onclick="signOut();">Sign out</a>
+<button id onclick="signOut();">Sign out</a></button>
 <script>
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
@@ -15,3 +15,4 @@ function onSignIn(googleUser) {
     });
   }
 </script>
+            
